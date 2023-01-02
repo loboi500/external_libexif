@@ -1,13 +1,3 @@
-if SHIP_BINARIES
-
-EXTRA_DIST = include bin
-
-SH_DIST_HOOK = dist-ship-binary-hook
-dist-ship-binary-hook include bin:
-	cd "$(top_builddir)" && $(MAKE) includedir="$(PWD)/include" DESTDIR="" prefix="$(PWD)/tmp" install
-	mkdir -p "$(PWD)/bin"
-	cp "$(PWD)/tmp/bin/"*.dll "bin/"
-
-endif
-
-dist-hook: $(SH_DIST_HOOK)
+version https://git-lfs.github.com/spec/v1
+oid sha256:530a4bd187cbb445661e9b0beb34bac5c1cca915c298b40a44bd7a881be92bf8
+size 308

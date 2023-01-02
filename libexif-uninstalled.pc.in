@@ -1,5 +1,3 @@
-Name: libexif
-Description: Library for easy access to EXIF data
-Version: @VERSION@
-Libs: ${pcfiledir}/libexif/libexif.la
-Cflags: -I${pcfiledir}/@srcdir@ -I${pcfiledir}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc0c30f39c1ba2346263a5ea144c686b361f6bb72d54ea5518c2aefd3bae832a
+size 168

@@ -1,11 +1,3 @@
-# Simple example programs
-check_PROGRAMS = photographer thumbnail write-exif
-
-# Example programs with dependencies other than plain libexif
-COMPLICATED_EXAMPLES = cam_features.c
-
-# Build just the simple examples as a sanity check, but include them all in
-# the source archive
-
-EXTRA_DIST = $(COMPLICATED_EXAMPLES)
-LDADD = $(top_builddir)/libexif/libexif.la
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb2fa60e3fbcd45dd68817af99612355d12df06a1fc70622ba54470c122bbc9e
+size 357

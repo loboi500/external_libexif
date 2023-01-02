@@ -1,1 +1,3 @@
-EXTRA_DIST = gp-byteorder.m4 gp-check-library.m4 gp-check-popt.m4 gp-check-shell-environment.m4 gp-config-msg.m4 gp-documentation.m4 gp-gettext-hack.m4 gp-packaging.m4 gp-pkg-config.m4 gp-references.m4 stdint.m4
+version https://git-lfs.github.com/spec/v1
+oid sha256:08e7ec402343003e67accdff85268941487c945878c220f7783aed824c1bceb9
+size 212

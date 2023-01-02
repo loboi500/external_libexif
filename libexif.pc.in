@@ -1,12 +1,3 @@
-prefix=@prefix@
-exec_prefix=@exec_prefix@
-libdir=@libdir@
-includedir=@includedir@
-
-Name: libexif
-Description: Library for easy access to EXIF data
-Requires:
-Version: @VERSION@
-Libs: -L${libdir} -lexif
-Libs.private: -lm
-Cflags: -I${includedir}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0e9a5d0e7ebbcdd72140935668b381d192e92612ee7d5ed8f82df0f94fbe0a4
+size 243
